@@ -14,7 +14,7 @@ It allows you to:
 
 ##  Installation & Usage  
 
-### **1️⃣ Setup Script: Create a New User with a Dedicated Disk**  
+### **1️ Setup Script: Create a New User with a Dedicated Disk**  
 ```sh
 sudo ./setup.sh <USERNAME> <DISK-SIZE_MB> <DISK-NAME> <MOUNT-PATH>
 ```
@@ -26,7 +26,7 @@ sudo ./setup.sh teo 500 teo_disk /mnt/teo_home
 
 ---
 
-### **2️⃣ Enable Automatic Mounting After Reboot**  
+### **2️ Enable Automatic Mounting After Reboot**  
 ```sh
 sudo ./setup_autoload.sh <DISK-NAME> <MOUNT-PATH>
 ```
@@ -38,7 +38,7 @@ sudo ./setup_autoload.sh teo_disk /mnt/teo_home
 
 ---
 
-### **3️⃣ Cleanly Remove User & Disk**  
+### **3️ Cleanly Remove User & Disk**  
 ```sh
 sudo ./unmount_and_delete.sh <DISK-NAME> <MOUNT-PATH> <USERNAME>
 ```
@@ -73,8 +73,8 @@ sudo mkfs.ext4 teo_disk.img  # Reformat as ext4
 ---
 
 ##  Author  
- Created by **[Your Name]**  
- GitHub: **[Your GitHub Link]**
+ Created by **[Auguste Atoundem Sonfack]**  
+ GitHub: **[https://github.com/auguste2003]**
 ```
 
 ---
